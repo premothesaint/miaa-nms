@@ -1,0 +1,20 @@
+.datagrid-container {
+    margin: 20px;
+    padding: 10px;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: margin 0.3s ease, width 0.3s ease;
+    margin-top: 60px; /* Default navbar height, adjust if needed */
+    margin-left: 250px; /* Default sidebar width */
+    width: calc(100% - 250px);
+}
+.datagrid {
+    width: 100%;
+    border-collapse: collapse;
+}
+.datagrid th, .datagrid td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}

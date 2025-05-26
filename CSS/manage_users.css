@@ -1,0 +1,87 @@
+
+.datagrid-container {
+    margin: 20px;
+    padding: 10px;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: margin 0.3s ease, width 0.3s ease;
+    margin-top: 60px; /* Default navbar height, adjust if needed */
+    margin-left: 250px; /* Default sidebar width */
+    width: calc(100% - 250px);
+}
+.datagrid {
+    width: 100%;
+    border-collapse: collapse;
+}
+.datagrid th, .datagrid td {
+    border: 1px solid #ddd;
+    width: 100px;
+    padding: 8px;
+    text-align: left;
+    white-space: nowrap;
+    font-size: x-small;
+}
+.actions {
+    display: flex;
+    gap: 10px;
+} HEHE
+.approve-btn, .delete-btn {
+    padding: 5px 10px;
+    text-decoration: none;
+    color: white;
+    border-radius: 4px;
+}
+.approve-btn {
+    background-color: green;
+}
+.delete-btn {
+    background-color: red;
+}
+.submenu {
+    display: none;
+    list-style: none;
+    padding-left: 20px;
+  }
+  
+  .item.active .submenu {
+    display: block;
+  }
+  
+
+  .submenu li a.active {
+    color: black;
+    font-weight: 600; 
+}
+
+.submenu li a {
+    display: block;
+    padding: 8px 10px;
+    color: grey;
+    text-decoration: none;
+  }
+  
+.submenu li a {
+    position: relative;
+    padding-right: 20px; /* Space for the vertical line */
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.submenu li a:hover {
+    color: #000 !important;
+    font-weight: 600; 
+}
+
+.submenu li a:hover::after {
+    content: "";
+    position: absolute;
+    right: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 5px; /* Thickness of the vertical line */
+    height: 12px; /* Height of the vertical line */
+    background-color: rgb(255, 255, 255); /* Color of the vertical line */
+}
+
+ 

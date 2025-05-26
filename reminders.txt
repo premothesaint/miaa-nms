@@ -1,0 +1,42 @@
+ADDED BY
+EMPLOYEE ID:
+NAME:
+OFFICE:
+
+DATE & TIME
+ADDED:
+EDITED:
+
+
+"OK" BUTTON
+
+___________________________________
+
+SHOW MODAL: <button class="show-btn" onclick="showProperties(${row.input_id})">Show</button>
+
+MAKE A MODAL LIKE THIS:
+
+ADDED BY
+EMPLOYEE ID:
+NAME:
+OFFICE:
+
+DATE & TIME
+ADDED:
+EDITED:
+
+
+"OK" BUTTON
+
+IT WILL GET THE DATA FROM:
+table: miaalocals_user_inputs
+
+
+employee_id
+local
+office
+contact_name
+full_name
+user_office
+date_added
+date_edited 

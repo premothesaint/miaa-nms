@@ -1,0 +1,115 @@
+.dashboard {
+    padding: 10px;
+    margin-left: 270px; /* Adjust according to sidebar width */
+}
+
+.stats {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    margin-top: 80px; /* Adjust this value based on your nav height */
+}
+
+.stat-box {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    width: 200px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.stat-box i {
+    font-size: 30px;
+    color: #000;
+    margin-bottom: 10px;
+}
+
+.stat-box h3 {
+    font-size: 24px;
+    margin: 5px 0;
+}
+
+.stat-box p {
+    font-size: 14px;
+    color: gray;
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap: 8px;
+}
+
+.div1, .div2, .div3, .div4 {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.div1 {
+    grid-row: span 2 / span 2;
+}
+
+.div2 {
+    grid-row: span 2 / span 2;
+}
+
+.div3 {
+    grid-column: span 3 / span 3;
+    grid-row: span 5 / span 5;
+}
+
+.div4 {
+    grid-column: span 2 / span 2;
+    grid-row: span 3 / span 3;
+    grid-row-start: 3;
+}
+
+.div1 i, .div2 i {
+    font-size: 30px;
+    color: #000;
+    margin-bottom: 10px;
+}
+
+.div1 h3, .div2 h3 {
+    font-size: 24px;
+    margin: 5px 0;
+}
+
+.div1 p, .div2 p {
+    font-size: 14px;
+    color: gray;
+}
+
+canvas {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.div4 ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.div4 ul li {
+    padding: 5px;
+    border-bottom: 1px solid #ddd;
+}
+
+.show-all-btn{
+    margin-top: 15px;
+    background: black;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.show-all-btn:hover {
+    background: grey;
+}
